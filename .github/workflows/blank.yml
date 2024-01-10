@@ -44,6 +44,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_PHP: true
-          CREATE_LOG_FILE: true
-          LOG_FILE: super-linter.log
+          OUTPUT_FOLDER: Reports
+          OUTPUT_DETAILS: detailed
 
