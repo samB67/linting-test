@@ -39,13 +39,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
       - name: Super-Linter
         uses: super-linter/super-linter@v5.7.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_ALL_CODEBASE: false
           VALIDATE_PHP: true
           CREATE_LOG_FILE: true
 
