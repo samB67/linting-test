@@ -9,7 +9,6 @@
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
     <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
     <rule ref="Generic.PHP.LowerCaseConstant"/>
-    <rule ref="Generic.Function.MissingParamTypeHint"/>
     <rule ref="Generic.Function.IncorrectParamTypeHint"/>
     <rule ref="Generic.Function.MissingReturnTypeHint"/>
     <rule ref="Generic.Function.IncorrectReturnTypeHint"/>
